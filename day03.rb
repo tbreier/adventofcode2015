@@ -17,7 +17,7 @@ ARGF.each_line do |line|
 		else
 			break # Done
 		end
-		houses[curr] += 1
+		houses["#{curr[0]},#{curr[1]}"] += 1
 	end
 end
 
